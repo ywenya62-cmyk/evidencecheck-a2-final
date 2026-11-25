@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "id": "C01",
+      "claim": "In Experiment 1 of the 2006 study, students who took an initial recall test recalled more after one week than students who restudied the material.",
+      "evidence": [
+        "A-R03"
+      ],
+      "verdict": "Supported",
+      "reason": "After one week in Experiment 1, recall was 56% in the initial-test condition and 42% in the restudy condition. This supports the claim within its stated study and time frame."
+    },
+    {
+      "id": "C02",
+      "claim": "In Experiment 1 of the 2006 study, students who took an initial recall test performed better than students who restudied when tested after five minutes.",
+      "evidence": [
+        "A-R01"
+      ],
+      "verdict": "Contradicted",
+      "reason": "After five minutes, recall was 81% in the restudy condition and 75% in the initial-test condition. The result runs in the opposite direction to the claim."
+    },
+    {
+      "id": "C03",
+      "claim": "Retrieval practice benefited delayed recall in the 2006 study, so it guarantees higher grades for every student in every subject.",
+      "evidence": [
+        "A-R03",
+        "A-M01",
+        "A-M02",
+        "A-M03"
+      ],
+      "verdict": "Partially supported",
+      "reason": "The delayed-recall benefit is supported. Guaranteed grade improvements for all students and subjects go beyond the evidence. Split this compound claim and review each part separately."
+    },
+    {
+      "id": "C04",
+      "claim": "The 2011 study found that gradually expanding the intervals between retrieval attempts produced better long-term recall than equal spacing.",
+      "evidence": [
+        "B-R02"
+      ],
+      "verdict": "Contradicted",
+      "reason": "The study found no significant effect of relative spacing on long-term retention. It does not support reporting an expanding-schedule advantage, nor does it prove that the schedules are equivalent."
+    },
+    {
+      "id": "C05",
+      "claim": "The 5–5–5 schedule in Table 1 of the 2011 paper means reviewing once every five days.",
+      "evidence": [
+        "B-U01",
+        "B-U02"
+      ],
+      "verdict": "Contradicted",
+      "reason": "The note beneath Table 1 defines the numbers as intervening trials, not days."
+    },
+    {
+      "id": "C06",
+      "claim": "Studying for 25 minutes and taking a five-minute break is the most effective study schedule for university students.",
+      "evidence": [],
+      "verdict": "Insufficient evidence",
+      "reason": "Neither selected study compares this 25-minute/five-minute schedule with alternatives. These sources cannot establish that it is the most effective. This does not demonstrate that the claim is false."
+    }
+  ]
+}

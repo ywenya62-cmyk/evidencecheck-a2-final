@@ -1,0 +1,225 @@
+{
+  "version": "1.0",
+  "language": "en",
+  "scope": "Curated excerpts from two studies; not the complete papers or a systematic review.",
+  "id_policy": "Passage IDs are assigned by this project, not original paragraph numbers.",
+  "normalisation": "Unicode ligatures expanded; PDF line breaks and line-end hyphenation normalised. Excerpts may stop before statistical details; consult the linked page for full context.",
+  "verification_note": "Text matching verifies provenance, not truth, relevance, or semantic support.",
+  "papers": {
+    "A": {
+      "title": "Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention",
+      "authors": "Roediger & Karpicke",
+      "year": 2006,
+      "url": "https://learninglab.psych.purdue.edu/downloads/2006/2006_Roediger_Karpicke_PsychSci.pdf",
+      "page_count": 7,
+      "sha256": "c957ab90e2fa8ce4139af6bedeacdb2ffeee80dc46e08011d625a37f52c11aec",
+      "doi": "10.1111/j.1467-9280.2006.01693.x"
+    },
+    "B": {
+      "title": "Spaced Retrieval: Absolute Spacing Enhances Learning Regardless of Relative Spacing",
+      "authors": "Karpicke & Bauernschmidt",
+      "year": 2011,
+      "url": "https://learninglab.psych.purdue.edu/downloads/2011/2011_Karpicke_Bauernschmidt_JEPLMC.pdf",
+      "page_count": 8,
+      "sha256": "16803f6cdec4e870d43b0ca04b86351723b509e629e39d1f752fff1d54fd6c20",
+      "doi": "10.1037/a0023436"
+    }
+  },
+  "passages": [
+    {
+      "id": "A-M01",
+      "paper": "A",
+      "page": 2,
+      "printed_page": 250,
+      "section": "Experiment 1 · Method · Subjects",
+      "title": "Participants",
+      "quote": "One hundred twenty Washington University undergraduates, ages 18 to 24, participated in partial fulfillment of course requirements.",
+      "locator": {
+        "start": "One hundred twenty Washington University undergraduates,",
+        "end": "requirements."
+      },
+      "verification": "Matched to text on the stated PDF page.",
+      "context": "Experiment 1 recruited 120 university students aged 18–24. The sample does not represent every learner."
+    },
+    {
+      "id": "A-M02",
+      "paper": "A",
+      "page": 2,
+      "printed_page": 250,
+      "section": "Experiment 1 · Method · Materials",
+      "title": "Learning materials",
+      "quote": "Two prose passages were selected from the reading comprehension section of a test-preparation book for the Test of English as a Foreign Language (TOEFL; Rogers, 2001). Each passage covered a single topic (‘‘The Sun’’ and ‘‘Sea Otters’’), and each was divided into 30 idea units for scoring purposes.",
+      "locator": {
+        "start": "Two prose passages were selected",
+        "end": "for scoring purposes."
+      },
+      "verification": "Matched to text on the stated PDF page.",
+      "context": "The learning materials were two short prose passages. This is a specific text-learning task, not a comparison across all academic subjects."
+    },
+    {
+      "id": "A-M03",
+      "paper": "A",
+      "page": 2,
+      "printed_page": 250,
+      "section": "Experiment 1 · Results · Scoring",
+      "title": "Outcome measure",
+      "quote": "Subjects’ recall responses were scored by giving 1 point for each correctly recalled idea unit (out of 30).",
+      "locator": {
+        "start": "Subjects’ recall responses were scored",
+        "end": "(out of 30)."
+      },
+      "verification": "Matched to text on the stated PDF page.",
+      "context": "The outcome was the proportion of correctly recalled idea units, not examination grades or a long-term learning measure across subjects."
+    },
+    {
+      "id": "A-R01",
+      "paper": "A",
+      "page": 3,
+      "printed_page": 251,
+      "section": "Experiment 1 · Final Test",
+      "title": "Five-minute outcome",
+      "quote": "Post hoc analyses confirmed that on the 5-min retention tests, restudying produced better recall than testing (81% vs. 75%)",
+      "locator": {
+        "start": "Post hoc analyses confirmed",
+        "end": "(81% vs. 75%)"
+      },
+      "verification": "Matched to text on the stated PDF page.",
+      "context": "The restudy condition outperformed the initial-test condition on the five-minute recall test. The direction reversed at the delayed tests."
+    },
+    {
+      "id": "A-R02",
+      "paper": "A",
+      "page": 3,
+      "printed_page": 251,
+      "section": "Experiment 1 · Final Test",
+      "title": "Two-day outcome",
+      "quote": "After 2 days, the initially tested group recalled more than the additional-study group (68% vs. 54%)",
+      "locator": {
+        "start": "After 2 days, the initially tested group",
+        "end": "(68% vs. 54%)"
+      },
+      "verification": "Matched to text on the stated PDF page.",
+      "context": "After two days, recall was higher in the initial-test condition. The result describes this experiment and retention interval."
+    },
+    {
+      "id": "A-R03",
+      "paper": "A",
+      "page": 3,
+      "printed_page": 251,
+      "section": "Experiment 1 · Final Test",
+      "title": "One-week outcome",
+      "quote": "The benefits of initial testing were also observed after 1 week: The tested group recalled 56% of the material, whereas the restudy group recalled only 42%",
+      "locator": {
+        "start": "The benefits of initial testing were also observed after 1 week:",
+        "end": "only 42%"
+      },
+      "verification": "Matched to text on the stated PDF page.",
+      "context": "After one week, recall was 56% in the initial-test condition and 42% in the restudy condition. These percentages describe recalled passage content."
+    },
+    {
+      "id": "B-M01",
+      "paper": "B",
+      "page": 3,
+      "printed_page": 1252,
+      "section": "Method · Subjects",
+      "title": "Participants",
+      "quote": "Ninety-six Purdue University undergraduates participated in exchange for course credit.",
+      "locator": {
+        "start": "Ninety-six Purdue University undergraduates participated",
+        "end": "course credit."
+      },
+      "verification": "Matched to text on the stated PDF page.",
+      "context": "The 2011 experiment recruited 96 university students. Generalisation to other populations needs additional evidence."
+    },
+    {
+      "id": "B-M02",
+      "paper": "B",
+      "page": 3,
+      "printed_page": 1252,
+      "section": "Method · Materials",
+      "title": "Learning materials",
+      "quote": "The set of 100 Swahili–English word pairs in the Nelson and Dunlosky (1994) norms was used. Twenty-four pairs were used as critical to-be-learned pairs. The other 76 pairs were used as a pool of potential filler items during the learning phase.",
+      "locator": {
+        "start": "The set of 100 Swahili–English word pairs",
+        "end": "the learning phase."
+      },
+      "verification": "Matched to text on the stated PDF page.",
+      "context": "Participants learned Swahili–English word pairs, with 24 critical pairs and other pairs used as fillers."
+    },
+    {
+      "id": "B-U01",
+      "paper": "B",
+      "page": 2,
+      "printed_page": 1251,
+      "section": "Table 1 · Note",
+      "title": "Units of spacing",
+      "quote": "Numbers refer to the number of trials that occurred between each repeated test in the initial learning phase.",
+      "locator": {
+        "start": "Numbers refer to the number of trials",
+        "end": "initial learning phase."
+      },
+      "verification": "Matched to text on the stated PDF page.",
+      "context": "The table defines spacing in intervening trials, not days. Refer to the full table for the schedules."
+    },
+    {
+      "id": "B-U02",
+      "paper": "B",
+      "page": 2,
+      "printed_page": 1251,
+      "section": "Introduction · Absolute and relative spacing",
+      "title": "Comparing schedules",
+      "quote": "This would be called a 1-5-9 schedule to reflect the number of trials that occurred between each test, and the absolute spacing of the repeated tests would be 15 trials. The appropriate comparison to this expanding condition is a condition matched on absolute spacing but differing in the relative spacing of tests. An equally spaced schedule where the interval between each test is five trials (a 5-5-5 schedule) has the same absolute spacing as the expanding condition but differs in the relative distribution of tests.",
+      "locator": {
+        "start": "This would be called a 1-5-9 schedule",
+        "end": "relative distribution of tests."
+      },
+      "verification": "Matched to text on the stated PDF page.",
+      "context": "A 1–5–9 schedule and a 5–5–5 schedule each total 15 intervening trials. They differ in the distribution of those intervals."
+    },
+    {
+      "id": "B-M03",
+      "paper": "B",
+      "page": 3,
+      "printed_page": 1252,
+      "section": "Method · Procedure",
+      "title": "Retention interval",
+      "quote": "The learning phase terminated once all repeated tests had occurred. The subjects were then dismissed and returned for the final test 1 week later. The final test included the 24 critical pairs, tested in a random order, and did not include filler items.",
+      "locator": {
+        "start": "The learning phase terminated",
+        "end": "did not include filler items."
+      },
+      "verification": "Matched to text on the stated PDF page.",
+      "context": "The final recall test took place one week after learning and included the 24 critical pairs."
+    },
+    {
+      "id": "B-R01",
+      "paper": "B",
+      "page": 5,
+      "printed_page": 1254,
+      "section": "Final Recall",
+      "title": "Spaced versus massed retrieval",
+      "quote": "However, introducing spacing between the three repeated tests enhanced retention.",
+      "locator": {
+        "start": "However, introducing spacing",
+        "end": "enhanced retention."
+      },
+      "verification": "Matched to text on the stated PDF page.",
+      "context": "Spacing the repeated tests improved retention in this experiment relative to massed retrieval. This does not identify a universally optimal daily schedule."
+    },
+    {
+      "id": "B-R02",
+      "paper": "B",
+      "page": 5,
+      "printed_page": 1254,
+      "section": "Final Recall",
+      "title": "Relative-spacing result",
+      "quote": "In sum, varying the relative spacing of repeated tests did not produce any discernible effects on long-term retention.",
+      "locator": {
+        "start": "In sum, varying the relative spacing",
+        "end": "long-term retention."
+      },
+      "verification": "Matched to text on the stated PDF page.",
+      "context": "No discernible long-term retention effect of the relative spacing schedules was found. A nonsignificant result does not prove equivalence."
+    }
+  ]
+}

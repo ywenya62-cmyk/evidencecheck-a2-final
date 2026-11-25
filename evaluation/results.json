@@ -1,0 +1,318 @@
+{
+  "run_at_utc": "2026-11-24T16:32:35.914017+00:00",
+  "method": "tfidf_cosine_v1",
+  "min_score": 0.08,
+  "limit": 3,
+  "min_shared_nonnumeric_terms": 2,
+  "retrieval_sha256": "77c8baac59d23298f6fe06d9926715ff14d19737b63943588f2efd55eafcd075",
+  "corpus_sha256": "ba7be0515b71da9d78385ddedb0b9ba88b4bfb3571b530d1f0180c77bd9d18d1",
+  "cases_sha256": "f8c3101948c9a37ef358364e3cc2ffa00a06044549192885928ca6678d1eb9a1",
+  "case_design": "Cases and expected passage IDs were authored by Codex after inspecting the existing corpus and retriever. They were saved before running this check. No retrieval changes are permitted in response to this batch without reporting a new development iteration.",
+  "metrics": {
+    "covered_cases": 7,
+    "top3_hits": 6,
+    "rank1_hits": 6,
+    "unsupported_or_outside_cases": 3,
+    "unsupported_or_outside_returning_candidates": 1
+  },
+  "interpretation": "Expected-passage retrieval only. Not factual-judgment accuracy, participant behaviour or evidence of learning benefit. Expected IDs were not independently annotated.",
+  "results": [
+    {
+      "id": "N01",
+      "type": "covered",
+      "claim": "After a delay of seven days, recalling the passage beforehand yielded 56% recall, compared with 42% after another reading.",
+      "expected_ids": [
+        "A-R03"
+      ],
+      "reason": "One-week recall figures in Experiment 1.",
+      "candidates": [
+        {
+          "id": "A-R03",
+          "score": 0.238911,
+          "matched_terms": [
+            "42",
+            "56",
+            "after",
+            "recall"
+          ]
+        },
+        {
+          "id": "A-R02",
+          "score": 0.215837,
+          "matched_terms": [
+            "after",
+            "day",
+            "recall"
+          ]
+        },
+        {
+          "id": "A-M02",
+          "score": 0.0846,
+          "matched_terms": [
+            "passage",
+            "reading"
+          ]
+        }
+      ],
+      "expected_passage_in_top3": true,
+      "expected_passage_at_rank1": true
+    },
+    {
+      "id": "N02",
+      "type": "covered",
+      "claim": "For the immediate 5-min test, the restudy condition reached 81%, exceeding the 75% following initial testing.",
+      "expected_ids": [
+        "A-R01"
+      ],
+      "reason": "Five-minute comparison in Experiment 1.",
+      "candidates": [
+        {
+          "id": "A-R01",
+          "score": 0.421176,
+          "matched_terms": [
+            "5",
+            "75",
+            "81",
+            "min",
+            "restudy",
+            "test"
+          ]
+        },
+        {
+          "id": "A-R03",
+          "score": 0.145524,
+          "matched_terms": [
+            "initial",
+            "restudy",
+            "test"
+          ]
+        },
+        {
+          "id": "B-U02",
+          "score": 0.144008,
+          "matched_terms": [
+            "5",
+            "condition",
+            "test"
+          ]
+        }
+      ],
+      "expected_passage_in_top3": true,
+      "expected_passage_at_rank1": true
+    },
+    {
+      "id": "N03",
+      "type": "covered",
+      "claim": "The notes below Table 1 define spacing numbers as trials in the initial learning phase.",
+      "expected_ids": [
+        "B-U01"
+      ],
+      "reason": "The table note defines the unit.",
+      "candidates": [
+        {
+          "id": "B-U01",
+          "score": 0.491032,
+          "matched_terms": [
+            "1",
+            "initial",
+            "learning",
+            "numbers",
+            "phase",
+            "spacing",
+            "table",
+            "trial"
+          ]
+        },
+        {
+          "id": "B-U02",
+          "score": 0.123157,
+          "matched_terms": [
+            "spacing",
+            "trial"
+          ]
+        },
+        {
+          "id": "B-M03",
+          "score": 0.087074,
+          "matched_terms": [
+            "1",
+            "learning",
+            "phase"
+          ]
+        }
+      ],
+      "expected_passage_in_top3": true,
+      "expected_passage_at_rank1": true
+    },
+    {
+      "id": "N04",
+      "type": "covered",
+      "claim": "Participants in the 2011 investigation learned vocabulary pairs in Swahili and English.",
+      "expected_ids": [
+        "B-M02"
+      ],
+      "reason": "The materials paragraph identifies Swahili-English pairs.",
+      "candidates": [
+        {
+          "id": "B-M02",
+          "score": 0.30605,
+          "matched_terms": [
+            "2011",
+            "english",
+            "learned",
+            "pairs",
+            "swahili"
+          ]
+        }
+      ],
+      "expected_passage_in_top3": true,
+      "expected_passage_at_rank1": true
+    },
+    {
+      "id": "N05",
+      "type": "covered",
+      "claim": "Repeated tests following a 1-5-9 schedule and a 5-5-5 schedule have equal total spacing.",
+      "expected_ids": [
+        "B-U02"
+      ],
+      "reason": "The comparison describes schedules with the same absolute spacing.",
+      "candidates": [
+        {
+          "id": "B-U02",
+          "score": 0.349311,
+          "matched_terms": [
+            "1-5-9",
+            "5-5-5",
+            "repeated",
+            "schedule",
+            "spacing",
+            "test"
+          ]
+        },
+        {
+          "id": "B-R02",
+          "score": 0.112038,
+          "matched_terms": [
+            "repeated",
+            "spacing",
+            "test"
+          ]
+        },
+        {
+          "id": "B-R01",
+          "score": 0.1006,
+          "matched_terms": [
+            "repeated",
+            "spacing",
+            "test"
+          ]
+        }
+      ],
+      "expected_passage_in_top3": true,
+      "expected_passage_at_rank1": true
+    },
+    {
+      "id": "N06",
+      "type": "covered",
+      "claim": "Separating repeated recall attempts with intervening activities improved memory compared with back-to-back attempts.",
+      "expected_ids": [
+        "B-R01"
+      ],
+      "reason": "An intended paraphrase of the spaced-versus-massed result. Candidate relevance requires source inspection.",
+      "candidates": [],
+      "expected_passage_in_top3": false,
+      "expected_passage_at_rank1": false
+    },
+    {
+      "id": "N07",
+      "type": "unsupported",
+      "claim": "The research establishes that university students earn higher examination marks when they take a break every 25 minutes.",
+      "expected_ids": [],
+      "reason": "The excerpts do not establish this break-schedule or grade claim; shared population words may be misleading.",
+      "candidates": [
+        {
+          "id": "B-M01",
+          "score": 0.110213,
+          "matched_terms": [
+            "student",
+            "university"
+          ]
+        },
+        {
+          "id": "A-M01",
+          "score": 0.092603,
+          "matched_terms": [
+            "student",
+            "university"
+          ]
+        }
+      ],
+      "expected_passage_in_top3": null,
+      "expected_passage_at_rank1": null
+    },
+    {
+      "id": "N08",
+      "type": "unsupported",
+      "claim": "Drinking coffee before studying guarantees a higher final grade.",
+      "expected_ids": [],
+      "reason": "No excerpt evaluates coffee or guarantees grades.",
+      "candidates": [],
+      "expected_passage_in_top3": null,
+      "expected_passage_at_rank1": null
+    },
+    {
+      "id": "N09",
+      "type": "covered",
+      "claim": "The 2011 findings show that expanding relative spacing produced a clear long-term retention advantage.",
+      "expected_ids": [
+        "B-R02"
+      ],
+      "reason": "The result passage is relevant counterevidence, not support for this claim.",
+      "candidates": [
+        {
+          "id": "B-R02",
+          "score": 0.359113,
+          "matched_terms": [
+            "2011",
+            "long",
+            "relative",
+            "retention",
+            "spacing",
+            "term"
+          ]
+        },
+        {
+          "id": "B-U02",
+          "score": 0.189525,
+          "matched_terms": [
+            "2011",
+            "expanding",
+            "relative",
+            "spacing"
+          ]
+        },
+        {
+          "id": "B-R01",
+          "score": 0.107517,
+          "matched_terms": [
+            "2011",
+            "retention",
+            "spacing"
+          ]
+        }
+      ],
+      "expected_passage_in_top3": true,
+      "expected_passage_at_rank1": true
+    },
+    {
+      "id": "N10",
+      "type": "outside_scope",
+      "claim": "Solar radiation determines the temperature of distant planets.",
+      "expected_ids": [],
+      "reason": "No indexed excerpt addresses this topic.",
+      "candidates": [],
+      "expected_passage_in_top3": null,
+      "expected_passage_at_rank1": null
+    }
+  ]
+}

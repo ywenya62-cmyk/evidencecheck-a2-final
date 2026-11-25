@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1030" viewBox="0 0 1800 1030">
+<rect width="1800" height="1030" fill="white"/>
+<rect x="285" y="60" width="1455" height="865" rx="16" fill="none" stroke="#B7C3CF" stroke-width="2"/>
+<text x="310" y="97.4" font-family="Arial, sans-serif" font-size="26" fill="#384F64" font-weight="bold">LOCAL APPLICATION  Browser UI and Python process</text>
+<rect x="30" y="145" width="215" height="175" rx="9" fill="#F3F7FB" stroke="#193650" stroke-width="2"/>
+<text x="46" y="185.3" font-family="Arial, sans-serif" font-size="27" fill="#193650" font-weight="bold">Student</text>
+<text x="46" y="227.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">Enter claims</text>
+<text x="46" y="258.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">Inspect sources</text>
+<text x="46" y="289.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">Make judgments</text>
+<rect x="335" y="145" width="335" height="140" rx="9" fill="#F3F7FB" stroke="#193650" stroke-width="2"/>
+<text x="351" y="185.3" font-family="Arial, sans-serif" font-size="27" fill="#193650" font-weight="bold">Prepare claims</text>
+<text x="351" y="227.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">One claim per line</text>
+<text x="351" y="258.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">Edit or replace text</text>
+<rect x="830" y="145" width="335" height="140" rx="9" fill="#F3F7FB" stroke="#193650" stroke-width="2"/>
+<text x="846" y="185.3" font-family="Arial, sans-serif" font-size="27" fill="#193650" font-weight="bold">Local evidence ranking</text>
+<text x="846" y="227.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">TF-IDF cosine similarity</text>
+<text x="846" y="258.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">Filter and return top 3</text>
+<rect x="1330" y="145" width="335" height="140" rx="9" fill="#F3F7FB" stroke="#193650" stroke-width="2"/>
+<text x="1346" y="185.3" font-family="Arial, sans-serif" font-size="27" fill="#193650" font-weight="bold">Evidence review</text>
+<text x="1346" y="227.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">Claim beside excerpt</text>
+<text x="1346" y="258.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">Matched terms and links</text>
+<rect x="830" y="385" width="335" height="140" rx="9" fill="#F3F7FB" stroke="#193650" stroke-width="2"/>
+<text x="846" y="425.3" font-family="Arial, sans-serif" font-size="27" fill="#193650" font-weight="bold">Curated corpus</text>
+<text x="846" y="467.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">13 source passages</text>
+<text x="846" y="498.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">Page and source metadata</text>
+<rect x="1330" y="385" width="335" height="140" rx="9" fill="#F3F7FB" stroke="#193650" stroke-width="2"/>
+<text x="1346" y="425.3" font-family="Arial, sans-serif" font-size="27" fill="#193650" font-weight="bold">Human judgment</text>
+<text x="1346" y="467.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">Support / conflict / other</text>
+<text x="1346" y="498.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">Save, revise or undo</text>
+<rect x="335" y="635" width="335" height="140" rx="9" fill="#FFF8ED" stroke="#A65B17" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="351" y="675.3" font-family="Arial, sans-serif" font-size="27" fill="#A65B17" font-weight="bold">Example reference data</text>
+<text x="351" y="717.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">Six authored cases</text>
+<text x="351" y="748.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">Static reference verdicts</text>
+<rect x="830" y="635" width="335" height="140" rx="9" fill="#FFF8ED" stroke="#A65B17" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="846" y="675.3" font-family="Arial, sans-serif" font-size="27" fill="#A65B17" font-weight="bold">Reference disclosure</text>
+<text x="846" y="717.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">After a saved judgment</text>
+<text x="846" y="748.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">Only exact example text</text>
+<rect x="1330" y="635" width="335" height="140" rx="9" fill="#F3F7FB" stroke="#193650" stroke-width="2"/>
+<text x="1346" y="675.3" font-family="Arial, sans-serif" font-size="27" fill="#193650" font-weight="bold">Session state</text>
+<text x="1346" y="717.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">Claim and selected source</text>
+<text x="1346" y="748.5" font-family="Arial, sans-serif" font-size="25" fill="#19232D">Judgment and search trace</text>
+<rect x="1330" y="830" width="335" height="75" rx="9" fill="#F3F7FB" stroke="#193650" stroke-width="2"/>
+<text x="1346" y="870.3" font-family="Arial, sans-serif" font-size="27" fill="#193650" font-weight="bold">JSON download</text>
+<rect x="335" y="830" width="710" height="75" rx="9" fill="#F4F5F6" stroke="#67727D" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="351" y="870.3" font-family="Arial, sans-serif" font-size="27" fill="#67727D" font-weight="bold">Optional model integration (planned)</text>
+<polyline points="245,205 335,205" fill="none" stroke="#193650" stroke-width="3"/>
+<polygon points="335,205 321.49329346470984,211.52448301166845 321.49329346470984,198.47551698833155" fill="#193650"/>
+<polyline points="670,205 830,205" fill="none" stroke="#193650" stroke-width="3"/>
+<polygon points="830,205 816.4932934647098,211.52448301166845 816.4932934647098,198.47551698833155" fill="#193650"/>
+<polyline points="1165,205 1330,205" fill="none" stroke="#193650" stroke-width="3"/>
+<polygon points="1330,205 1316.49329346471,211.52448301166845 1316.49329346471,198.47551698833155" fill="#193650"/>
+<polyline points="997,385 997,285" fill="none" stroke="#193650" stroke-width="3"/>
+<polygon points="997,285 1003.5244830116685,298.50670653529016 990.4755169883315,298.50670653529016" fill="#193650"/>
+<text x="1015" y="340.7" font-family="Arial, sans-serif" font-size="23" fill="#19232D">source text</text>
+<polyline points="1497,285 1497,385" fill="none" stroke="#193650" stroke-width="3"/>
+<polygon points="1497,385 1490.4755169883315,371.49329346470984 1503.5244830116685,371.49329346470984" fill="#193650"/>
+<polyline points="1497,525 1497,635" fill="none" stroke="#193650" stroke-width="3"/>
+<polygon points="1497,635 1490.4755169883315,621.4932934647098 1503.5244830116685,621.4932934647098" fill="#193650"/>
+<text x="1515" y="592.7" font-family="Arial, sans-serif" font-size="23" fill="#19232D">save</text>
+<polyline points="1497,775 1497,830" fill="none" stroke="#193650" stroke-width="3"/>
+<polygon points="1497,830 1490.4755169883315,816.4932934647098 1503.5244830116685,816.4932934647098" fill="#193650"/>
+<polyline points="670,705 830,705" fill="none" stroke="#A65B17" stroke-width="3" stroke-dasharray="9 7"/>
+<polygon points="830,705 816.4932934647098,711.5244830116685 816.4932934647098,698.4755169883315" fill="#A65B17"/>
+<polyline points="1330,680 1165,680" fill="none" stroke="#193650" stroke-width="3"/>
+<polygon points="1165,680 1178.50670653529,673.4755169883315 1178.50670653529,686.5244830116685" fill="#193650"/>
+<polyline points="1165,735 1240,735 1240,555 1450,555 1450,525" fill="none" stroke="#A65B17" stroke-width="3" stroke-dasharray="9 7"/>
+<polygon points="1450,525 1456.5244830116685,538.5067065352902 1443.4755169883315,538.5067065352902" fill="#A65B17"/>
+<text x="1040" y="810.7" font-family="Arial, sans-serif" font-size="23" fill="#A65B17">optional reference</text>
+<polyline points="1330,445 1275,445 1275,570 745,570 745,250 670,250" fill="none" stroke="#193650" stroke-width="3"/>
+<polygon points="670,250 683.5067065352902,243.47551698833155 683.5067065352902,256.52448301166845" fill="#193650"/>
+<text x="650" y="609.6" font-family="Arial, sans-serif" font-size="24" fill="#19232D">edit claim / clear old judgment / re-search</text>
+<polyline points="1165,430 1210,430 1210,310 1370,310 1370,285" fill="none" stroke="#193650" stroke-width="3"/>
+<polygon points="1370,285 1376.5244830116685,298.50670653529016 1363.4755169883315,298.50670653529016" fill="#193650"/>
+<text x="1225" y="345.7" font-family="Arial, sans-serif" font-size="23" fill="#19232D">browse</text>
+<text x="1225" y="372.7" font-family="Arial, sans-serif" font-size="23" fill="#19232D">all</text>
+<text x="310" y="976.6" font-family="Arial, sans-serif" font-size="24" fill="#193650" font-weight="bold">Implemented</text>
+<text x="600" y="976.6" font-family="Arial, sans-serif" font-size="24" fill="#A65B17" font-weight="bold">Preset or simulated analysis</text>
+<text x="1110" y="976.6" font-family="Arial, sans-serif" font-size="24" fill="#67727D" font-weight="bold">Planned and disconnected</text>
+<text x="310" y="1015.7" font-family="Arial, sans-serif" font-size="23" fill="#384F64">Original PDFs open through source links. No API, database or automated truth decision.</text>
+</svg>

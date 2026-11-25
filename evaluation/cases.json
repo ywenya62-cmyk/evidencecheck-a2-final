@@ -1,0 +1,16 @@
+{
+  "purpose": "First-use retrieval check with newly worded claims; not a user study or a blind external evaluation.",
+  "authorship": "Cases and expected passage IDs were authored by Codex after inspecting the existing corpus and retriever. They were saved before running this check. No retrieval changes are permitted in response to this batch without reporting a new development iteration.",
+  "cases": [
+    {"id":"N01","type":"covered","claim":"After a delay of seven days, recalling the passage beforehand yielded 56% recall, compared with 42% after another reading.","expected_ids":["A-R03"],"reason":"One-week recall figures in Experiment 1."},
+    {"id":"N02","type":"covered","claim":"For the immediate 5-min test, the restudy condition reached 81%, exceeding the 75% following initial testing.","expected_ids":["A-R01"],"reason":"Five-minute comparison in Experiment 1."},
+    {"id":"N03","type":"covered","claim":"The notes below Table 1 define spacing numbers as trials in the initial learning phase.","expected_ids":["B-U01"],"reason":"The table note defines the unit."},
+    {"id":"N04","type":"covered","claim":"Participants in the 2011 investigation learned vocabulary pairs in Swahili and English.","expected_ids":["B-M02"],"reason":"The materials paragraph identifies Swahili-English pairs."},
+    {"id":"N05","type":"covered","claim":"Repeated tests following a 1-5-9 schedule and a 5-5-5 schedule have equal total spacing.","expected_ids":["B-U02"],"reason":"The comparison describes schedules with the same absolute spacing."},
+    {"id":"N06","type":"covered","claim":"Separating repeated recall attempts with intervening activities improved memory compared with back-to-back attempts.","expected_ids":["B-R01"],"reason":"An intended paraphrase of the spaced-versus-massed result. Candidate relevance requires source inspection."},
+    {"id":"N07","type":"unsupported","claim":"The research establishes that university students earn higher examination marks when they take a break every 25 minutes.","expected_ids":[],"reason":"The excerpts do not establish this break-schedule or grade claim; shared population words may be misleading."},
+    {"id":"N08","type":"unsupported","claim":"Drinking coffee before studying guarantees a higher final grade.","expected_ids":[],"reason":"No excerpt evaluates coffee or guarantees grades."},
+    {"id":"N09","type":"covered","claim":"The 2011 findings show that expanding relative spacing produced a clear long-term retention advantage.","expected_ids":["B-R02"],"reason":"The result passage is relevant counterevidence, not support for this claim."},
+    {"id":"N10","type":"outside_scope","claim":"Solar radiation determines the temperature of distant planets.","expected_ids":[],"reason":"No indexed excerpt addresses this topic."}
+  ]
+}
